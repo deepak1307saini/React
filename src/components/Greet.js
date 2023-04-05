@@ -6,7 +6,12 @@ import App from "../App";
 // }
 const Greet=(props)=> {
     console.log(props)
-    return <h1>Hello {props.name} a.k.a {props.heroName}</h1>
+    return(
+        <div>
+             <h1>Hello {props.name} a.k.a {props.heroName}</h1>
+              {props.children}
+        </div>
+    )
 
 } //can use any name like props
 
