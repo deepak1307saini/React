@@ -6,6 +6,7 @@ import App from "../App";
 // }
 const Greet=(props)=> {
     console.log(props)
+    //props.name='Deepak'  //props are immutable, value can't be changed
     return(
         <div>
              <h1>Hello {props.name} a.k.a {props.heroName}</h1>
